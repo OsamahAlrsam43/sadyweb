@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.websady",
+  "appName": "websady",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}

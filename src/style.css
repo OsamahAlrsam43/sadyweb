@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
+
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+    
+}
+
+button:focus {
+    outline:none;
+    /* outline: 5px auto -webkit-focus-ring-color; */
+}
+
+a:hover{
+    text-decoration: none;
+}

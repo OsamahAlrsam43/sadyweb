@@ -1,0 +1,132 @@
+.contactme{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+   
+}
+
+.contactme_content{
+      display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.box_contact {
+    background: #3b51a0;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex: 1 1;
+    height: 200px;
+    direction: ltr;
+    color: #fff;
+        border-radius: 5px;
+}
+
+
+.box_contact2{
+    background: #ff4500;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+        border-radius: 5px;
+}
+
+.contactme_content {
+   background: #fff;
+    padding: 50px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgcontact_display{
+    background-image: url(http://wpdemo.archiwp.com/consultax/wp-content/uploads/sites/2/2019/04/bg-home1-2.jpg?id=1623) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+}
+
+h2.heading {
+    font-weight: 800;
+}
+
+.inpy{
+    padding: 10px;
+    flex: 1 1;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    max-width: 400px;
+    overflow: hidden;
+    border: 0;
+    outline: none;
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+.inpy::placeholder{
+    color: gray;
+    opacity: 0.5;
+}
+.inpy_btn{
+      padding: 10px;
+    flex: 1 1;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    max-width: 400px;
+    overflow: hidden;
+    border: 0;
+    outline: none;
+    margin-top: 20px;
+    background: #ff4500;
+    color:#fff;
+    width: 100%;
+}
+
+.c_input{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.c_input_contaner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 980px) {
+.box_contact{
+     width: 100%;
+}
+
+.contactme_content{
+padding: 0;
+}
+
+.bgcontact_display{
+    
+    flex-direction: column;
+}
+}

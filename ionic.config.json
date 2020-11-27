@@ -1,0 +1,7 @@
+{
+  "name": "websady",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

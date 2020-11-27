@@ -1,0 +1,148 @@
+.home_hero{
+    background: #f3f4ff;
+   
+}
+
+.content_hero{
+     display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.box_hero{
+   /* display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    */
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+    user-select: none;
+     
+}
+
+.box_hero_headr{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 60px;
+
+}
+
+.box_hero_btn{
+  padding: 10px 40px;
+    background-color: orangered;
+    color: #f3f4ff;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 0;
+    
+}
+
+.box_hero_btn:hover{
+   background: #7b7673;
+    color: #fff;
+}
+
+.box_hero_servers{
+    background-color: #f3f4ff
+}
+
+.box_hero_server_main{
+   display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -60px;
+}
+
+.box_hero_server_main_box{
+ 
+    position: relative;
+    background: #fff;
+    padding: 25px 30px 28px;
+    border-radius: 2px;
+   
+    text-align: right;
+    margin-bottom:30px;
+    box-shadow: 0 0 3px rgba(0,0,0,.1);
+   transition: all 0.3s linear;
+   -webkit-transition: all 0.3s linear;
+   cursor: pointer;
+  overflow: hidden;
+ min-width:220px;
+ min-height: 195px;
+ max-width:220px;
+ max-height: 195px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+  border: 1px solid #dcdcdc;
+}
+
+.hro_img img{
+    width: 100%;
+}
+.box_hero_server_main_box:hover{
+ 
+   box-shadow: 0 5px 20px rgba(0,0,0,.3);
+}
+
+   
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 980px) {
+.content_hero {
+   display: flex;
+    justify-content: center;
+    padding: 60px 0;
+    flex-direction: column;
+    
+    align-items: center;
+    
+}
+
+.box_hero {
+    flex: 1 1;
+    text-align: right;
+    margin-right: 10px;
+    -webkit-user-select: none;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.box_hero_server_main_box {
+   
+    min-width: 100%;
+    
+}
+
+.box_hero_server_main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -80px;
+}
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 980px) {
+   .content_hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+    flex-direction: row;
+    
+}
+
+
+}
