@@ -24,7 +24,7 @@ let year = newDate.getFullYear();
     const idmustakdem = localStorage.getItem("idmustakdem");
 
   
-  const baseURLImg = "http://localhost:5000/uploads";
+  const baseURLImg = "http://35.224.38.29/ftp/uploads";
 
   const [{ user }, dispatch] = useStateValue();
   const [datauser, setdatauser] = useState([]);
